@@ -17,10 +17,7 @@ The app should ompile and run, however, you will not be able to login due to upd
 ## Demo
 
 ### Sign-in
-<<<<<<< HEAD
 
-=======
 <a href="https://imgflip.com/gif/2drqqo"><img src="https://i.imgflip.com/2drqqo.gif" title="made at imgflip.com"/></a>
->>>>>>> 7c23ef7bd33708bc3fc2a2802941b8db9bf59776
 
 ### Table/Grade View
