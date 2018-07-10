@@ -303,11 +303,6 @@ class ViewController: UIViewController, GADBannerViewDelegate, BEMCheckBoxDelega
         passrememberOn = true
         UserDefaults.standard.synchronize()
     webScrape(change: 0)
-        
-        //yonathan.zetune.1
-        //W
-        //"TheGoldenBinder#64
-        //Vz317782#5
 
 
         if(usernameField.text != "" && passField.text != ""){
