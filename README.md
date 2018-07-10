@@ -17,3 +17,4 @@ The app should ompile and run, however, you will not be able to login due to upd
 ## Demo
 
 ### Sign-in
+<a href="https://imgflip.com/gif/2drqqo"><img src="https://i.imgflip.com/2drqqo.gif" title="made at imgflip.com"/></a>
