@@ -16,6 +16,8 @@ The app should ompile and run, however, you will not be able to login due to upd
 
 ## Demo
 
+Access the full demo here: https://www.dropbox.com/s/z1p7eb6lcytdsxr/PinnGradebookDemo.MOV?dl=0
+
 ### Sign-in
 
 <a href="https://imgflip.com/gif/2drqqo"><img src="https://i.imgflip.com/2drqqo.gif" title="made at imgflip.com"/></a>
