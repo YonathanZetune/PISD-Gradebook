@@ -17,3 +17,5 @@ The app should ompile and run, however, you will not be able to login due to upd
 ## Demo
 
 ### Sign-in
+
+### Table/Grade View
