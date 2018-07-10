@@ -21,3 +21,10 @@ The app should ompile and run, however, you will not be able to login due to upd
 <a href="https://imgflip.com/gif/2drqqo"><img src="https://i.imgflip.com/2drqqo.gif" title="made at imgflip.com"/></a>
 
 ### Table/Grade View
+
+<a href="https://imgflip.com/gif/2drrc0"><img src="https://i.imgflip.com/2drrc0.gif" title="made at imgflip.com"/></a>
+
+### Detailed Grade View
+
+<a href="https://imgflip.com/gif/2drriy"><img src="https://i.imgflip.com/2drriy.gif" title="made at imgflip.com"/></a>
+
