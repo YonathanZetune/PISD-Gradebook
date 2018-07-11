@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59F94F079AFE04A078CF6132 /* Pods_GradebookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1D0FCCAEB73068CD621BA6 /* Pods_GradebookTests.framework */; };
+		BD0599A11EF774EB0035C552 /* UsernameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0599A01EF774EB0035C552 /* UsernameVC.swift */; };
+		BD0599A31EF833D80035C552 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0599A21EF833D80035C552 /* Parser.swift */; };
+		BD0599A51EF83F740035C552 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD0599A41EF83F740035C552 /* Main.storyboard */; };
+		BD0E17F31EE37F36006FB42E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0E17F21EE37F36006FB42E /* AppDelegate.swift */; };
+		BD0E17FD1EE37F36006FB42E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD0E17FB1EE37F36006FB42E /* LaunchScreen.storyboard */; };
+		BD0E18081EE37F36006FB42E /* GradebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0E18071EE37F36006FB42E /* GradebookTests.swift */; };
+		BD0E18131EE37F36006FB42E /* GradebookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0E18121EE37F36006FB42E /* GradebookUITests.swift */; };
+		BD4C705B1EFC40A90022ED10 /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4C70541EFC40A90022ED10 /* BEMAnimationManager.m */; };
+		BD4C705C1EFC40A90022ED10 /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4C70561EFC40A90022ED10 /* BEMCheckBox.m */; };
+		BD4C705D1EFC40A90022ED10 /* BEMCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4C70581EFC40A90022ED10 /* BEMCheckBoxGroup.m */; };
+		BD4C705E1EFC40A90022ED10 /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4C705A1EFC40A90022ED10 /* BEMPathManager.m */; };
+		BD5567DC1EFEE2DF007FA41E /* SemesterTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5567DB1EFEE2DF007FA41E /* SemesterTVC.swift */; };
+		BD5567DE1EFF1BF9007FA41E /* HeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5567DD1EFF1BF9007FA41E /* HeaderViewController.swift */; };
+		BD5567E01F004FA8007FA41E /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5567DF1F004FA8007FA41E /* ProfileVC.swift */; };
+		BD5567E61F020E21007FA41E /* NineWeekCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD5567E51F020E21007FA41E /* NineWeekCellTableViewCell.xib */; };
+		BD5567E81F020EFF007FA41E /* NineWeekCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5567E71F020EFF007FA41E /* NineWeekCellTableViewCell.swift */; };
+		BD5567EB1F0296AF007FA41E /* SemesterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5567E91F0296AF007FA41E /* SemesterTableViewCell.swift */; };
+		BD5567EC1F0296AF007FA41E /* SemesterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD5567EA1F0296AF007FA41E /* SemesterTableViewCell.xib */; };
+		BD5567EE1F0312DC007FA41E /* ClassParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5567ED1F0312DB007FA41E /* ClassParser.swift */; };
+		BD5567F01F031548007FA41E /* ClassTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5567EF1F031548007FA41E /* ClassTableViewController.swift */; };
+		BD5567F41F0340B6007FA41E /* ClassHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5567F31F0340B6007FA41E /* ClassHeaderVC.swift */; };
+		BD5567F61F034257007FA41E /* ClassControlVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5567F51F034257007FA41E /* ClassControlVC.swift */; };
+		BD5567F81F042326007FA41E /* TableViewSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5567F71F042326007FA41E /* TableViewSegue.swift */; };
+		BD5567FE1F06915E007FA41E /* TermReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5567FD1F06915E007FA41E /* TermReport.swift */; };
+		BD5568001F06AD9A007FA41E /* TermData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5567FF1F06AD9A007FA41E /* TermData.swift */; };
+		BD6F18651F5263F9008AFA75 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6F18641F5263F9008AFA75 /* OnboardingView.swift */; };
+		BD6F18671F5302C6008AFA75 /* SetupVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6F18661F5302C6008AFA75 /* SetupVCViewController.swift */; };
+		BD753F661EE4945F00C53139 /* ClassReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD753F651EE4945F00C53139 /* ClassReport.swift */; };
+		BD753F6A1EE4946900C53139 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD753F671EE4946900C53139 /* Media.swift */; };
+		BD753F6B1EE4946900C53139 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD753F681EE4946900C53139 /* Session.swift */; };
+		BD753F6E1EE4947C00C53139 /* GradeCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD753F6D1EE4947C00C53139 /* GradeCategory.swift */; };
+		BD753F701EE4948400C53139 /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD753F6F1EE4948400C53139 /* Assignment.swift */; };
+		BD753F721EE494B000C53139 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD753F711EE494B000C53139 /* Assets.xcassets */; };
+		BD753F741EE4957800C53139 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD753F731EE4957800C53139 /* ViewController.swift */; };
+		BD753F781EE49A4800C53139 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD753F771EE49A4800C53139 /* GoogleMobileAds.framework */; };
+		BD753F7A1EE49A7400C53139 /* GoogleService-Info2.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD753F791EE49A7400C53139 /* GoogleService-Info2.plist */; };
+		BD753F7E1EE4E19700C53139 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD753F7D1EE4E19700C53139 /* Student.swift */; };
+		BD753F821EE665A700C53139 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD753F811EE665A700C53139 /* TabViewController.swift */; };
+		BDAED0F31FFF234B008C974A /* GoogleService-Info3.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDAED0F21FFF234B008C974A /* GoogleService-Info3.plist */; };
+		BDAED2C22014323000C0B853 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDAED2C12014322F00C0B853 /* GoogleService-Info.plist */; };
+		BDC35D2F1EFCA8410080C3CA /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC35D2E1EFCA8400080C3CA /* MenuBar.swift */; };
+		BDE2EA781EFED6B2000E1454 /* NineWeeksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE2EA771EFED6B2000E1454 /* NineWeeksTableViewController.swift */; };
+		EA118F28BCAE733CED02D7C3 /* Pods_GradebookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 869619306E54A97814E058FD /* Pods_GradebookUITests.framework */; };
+		F042C4C510F4A767FD46A391 /* Pods_Gradebook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3704FBDF05AECEA588661C69 /* Pods_Gradebook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD0E18041EE37F36006FB42E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD0E17E71EE37F36006FB42E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD0E17EE1EE37F36006FB42E;
+			remoteInfo = Gradebook;
+		};
+		BD0E180F1EE37F36006FB42E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD0E17E71EE37F36006FB42E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD0E17EE1EE37F36006FB42E;
+			remoteInfo = Gradebook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		308BCFFD3B924A0349148670 /* Pods-GradebookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradebookUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GradebookUITests/Pods-GradebookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3704FBDF05AECEA588661C69 /* Pods_Gradebook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gradebook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		847EE3DCE5CEE7CFED6BADE9 /* Pods-GradebookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradebookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GradebookTests/Pods-GradebookTests.release.xcconfig"; sourceTree = "<group>"; };
+		869619306E54A97814E058FD /* Pods_GradebookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GradebookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8844A3D9FD4DAF28F2847A34 /* Pods-GradebookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradebookUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GradebookUITests/Pods-GradebookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B08A35BEA1B68E469D609326 /* Pods-Gradebook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gradebook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gradebook/Pods-Gradebook.debug.xcconfig"; sourceTree = "<group>"; };
+		B793975416CE06A4F3E6EE92 /* Pods-Gradebook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gradebook.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gradebook/Pods-Gradebook.release.xcconfig"; sourceTree = "<group>"; };
+		BD0599A01EF774EB0035C552 /* UsernameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsernameVC.swift; sourceTree = "<group>"; };
+		BD0599A21EF833D80035C552 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		BD0599A41EF83F740035C552 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BD0E17EF1EE37F36006FB42E /* Gradebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gradebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0E17F21EE37F36006FB42E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD0E17FC1EE37F36006FB42E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD0E17FE1EE37F36006FB42E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD0E18031EE37F36006FB42E /* GradebookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradebookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0E18071EE37F36006FB42E /* GradebookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradebookTests.swift; sourceTree = "<group>"; };
+		BD0E18091EE37F36006FB42E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD0E180E1EE37F36006FB42E /* GradebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradebookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0E18121EE37F36006FB42E /* GradebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradebookUITests.swift; sourceTree = "<group>"; };
+		BD0E18141EE37F36006FB42E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD16FE32201426AE00CF0592 /* Gradebook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Gradebook.entitlements; sourceTree = "<group>"; };
+		BD4C70531EFC40A90022ED10 /* BEMAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMAnimationManager.h; sourceTree = "<group>"; };
+		BD4C70541EFC40A90022ED10 /* BEMAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMAnimationManager.m; sourceTree = "<group>"; };
+		BD4C70551EFC40A90022ED10 /* BEMCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMCheckBox.h; sourceTree = "<group>"; };
+		BD4C70561EFC40A90022ED10 /* BEMCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMCheckBox.m; sourceTree = "<group>"; };
+		BD4C70571EFC40A90022ED10 /* BEMCheckBoxGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMCheckBoxGroup.h; sourceTree = "<group>"; };
+		BD4C70581EFC40A90022ED10 /* BEMCheckBoxGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMCheckBoxGroup.m; sourceTree = "<group>"; };
+		BD4C70591EFC40A90022ED10 /* BEMPathManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMPathManager.h; sourceTree = "<group>"; };
+		BD4C705A1EFC40A90022ED10 /* BEMPathManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMPathManager.m; sourceTree = "<group>"; };
+		BD4C70601EFC42240022ED10 /* CheckMarkHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckMarkHeader.h; sourceTree = "<group>"; };
+		BD5567DB1EFEE2DF007FA41E /* SemesterTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SemesterTVC.swift; sourceTree = "<group>"; };
+		BD5567DD1EFF1BF9007FA41E /* HeaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderViewController.swift; sourceTree = "<group>"; };
+		BD5567DF1F004FA8007FA41E /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		BD5567E51F020E21007FA41E /* NineWeekCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NineWeekCellTableViewCell.xib; sourceTree = "<group>"; };
+		BD5567E71F020EFF007FA41E /* NineWeekCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NineWeekCellTableViewCell.swift; sourceTree = "<group>"; };
+		BD5567E91F0296AF007FA41E /* SemesterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SemesterTableViewCell.swift; sourceTree = "<group>"; };
+		BD5567EA1F0296AF007FA41E /* SemesterTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SemesterTableViewCell.xib; sourceTree = "<group>"; };
+		BD5567ED1F0312DB007FA41E /* ClassParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassParser.swift; sourceTree = "<group>"; };
+		BD5567EF1F031548007FA41E /* ClassTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassTableViewController.swift; sourceTree = "<group>"; };
+		BD5567F31F0340B6007FA41E /* ClassHeaderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassHeaderVC.swift; sourceTree = "<group>"; };
+		BD5567F51F034257007FA41E /* ClassControlVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassControlVC.swift; sourceTree = "<group>"; };
+		BD5567F71F042326007FA41E /* TableViewSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewSegue.swift; sourceTree = "<group>"; };
+		BD5567FD1F06915E007FA41E /* TermReport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermReport.swift; sourceTree = "<group>"; };
+		BD5567FF1F06AD9A007FA41E /* TermData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermData.swift; sourceTree = "<group>"; };
+		BD6F18641F5263F9008AFA75 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		BD6F18661F5302C6008AFA75 /* SetupVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupVCViewController.swift; sourceTree = "<group>"; };
+		BD753F651EE4945F00C53139 /* ClassReport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassReport.swift; sourceTree = "<group>"; };
+		BD753F671EE4946900C53139 /* Media.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		BD753F681EE4946900C53139 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		BD753F6D1EE4947C00C53139 /* GradeCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeCategory.swift; sourceTree = "<group>"; };
+		BD753F6F1EE4948400C53139 /* Assignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
+		BD753F711EE494B000C53139 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD753F731EE4957800C53139 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD753F771EE49A4800C53139 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		BD753F791EE49A7400C53139 /* GoogleService-Info2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info2.plist"; sourceTree = "<group>"; };
+		BD753F7D1EE4E19700C53139 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		BD753F811EE665A700C53139 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabViewController.swift; path = ../TabViewController.swift; sourceTree = "<group>"; };
+		BDAED0F21FFF234B008C974A /* GoogleService-Info3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info3.plist"; sourceTree = "<group>"; };
+		BDAED2C12014322F00C0B853 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BDC35D2E1EFCA8400080C3CA /* MenuBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
+		BDE2EA771EFED6B2000E1454 /* NineWeeksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NineWeeksTableViewController.swift; sourceTree = "<group>"; };
+		E2BEFEEDF2367A0A369FB46A /* Pods-GradebookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradebookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GradebookTests/Pods-GradebookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA1D0FCCAEB73068CD621BA6 /* Pods_GradebookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GradebookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD0E17EC1EE37F36006FB42E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD753F781EE49A4800C53139 /* GoogleMobileAds.framework in Frameworks */,
+				F042C4C510F4A767FD46A391 /* Pods_Gradebook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0E18001EE37F36006FB42E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F94F079AFE04A078CF6132 /* Pods_GradebookTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0E180B1EE37F36006FB42E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA118F28BCAE733CED02D7C3 /* Pods_GradebookUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A26E9F02FCE9D54ACC83302F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B08A35BEA1B68E469D609326 /* Pods-Gradebook.debug.xcconfig */,
+				B793975416CE06A4F3E6EE92 /* Pods-Gradebook.release.xcconfig */,
+				E2BEFEEDF2367A0A369FB46A /* Pods-GradebookTests.debug.xcconfig */,
+				847EE3DCE5CEE7CFED6BADE9 /* Pods-GradebookTests.release.xcconfig */,
+				308BCFFD3B924A0349148670 /* Pods-GradebookUITests.debug.xcconfig */,
+				8844A3D9FD4DAF28F2847A34 /* Pods-GradebookUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD0E17E61EE37F36006FB42E = {
+			isa = PBXGroup;
+			children = (
+				BD0E17F11EE37F36006FB42E /* Gradebook */,
+				BD0E18061EE37F36006FB42E /* GradebookTests */,
+				BD0E18111EE37F36006FB42E /* GradebookUITests */,
+				BD0E17F01EE37F36006FB42E /* Products */,
+				A26E9F02FCE9D54ACC83302F /* Pods */,
+				D90123DF08B8D66ACD14FA83 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BD0E17F01EE37F36006FB42E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD0E17EF1EE37F36006FB42E /* Gradebook.app */,
+				BD0E18031EE37F36006FB42E /* GradebookTests.xctest */,
+				BD0E180E1EE37F36006FB42E /* GradebookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD0E17F11EE37F36006FB42E /* Gradebook */ = {
+			isa = PBXGroup;
+			children = (
+				BD16FE32201426AE00CF0592 /* Gradebook.entitlements */,
+				BD0E17F21EE37F36006FB42E /* AppDelegate.swift */,
+				BD753F711EE494B000C53139 /* Assets.xcassets */,
+				BD753F6F1EE4948400C53139 /* Assignment.swift */,
+				BD4C70601EFC42240022ED10 /* CheckMarkHeader.h */,
+				BD5567F51F034257007FA41E /* ClassControlVC.swift */,
+				BD4C70521EFC40A90022ED10 /* Classes */,
+				BD5567F31F0340B6007FA41E /* ClassHeaderVC.swift */,
+				BD5567ED1F0312DB007FA41E /* ClassParser.swift */,
+				BD753F651EE4945F00C53139 /* ClassReport.swift */,
+				BD5567EF1F031548007FA41E /* ClassTableViewController.swift */,
+				BD753F771EE49A4800C53139 /* GoogleMobileAds.framework */,
+				BD753F791EE49A7400C53139 /* GoogleService-Info2.plist */,
+				BDAED0F21FFF234B008C974A /* GoogleService-Info3.plist */,
+				BDAED2C12014322F00C0B853 /* GoogleService-Info.plist */,
+				BD753F6D1EE4947C00C53139 /* GradeCategory.swift */,
+				BD6F18641F5263F9008AFA75 /* OnboardingView.swift */,
+				BD5567DD1EFF1BF9007FA41E /* HeaderViewController.swift */,
+				BD0E17FE1EE37F36006FB42E /* Info.plist */,
+				BD0E17FB1EE37F36006FB42E /* LaunchScreen.storyboard */,
+				BD0599A41EF83F740035C552 /* Main.storyboard */,
+				BD753F671EE4946900C53139 /* Media.swift */,
+				BDC35D2E1EFCA8400080C3CA /* MenuBar.swift */,
+				BD5567E71F020EFF007FA41E /* NineWeekCellTableViewCell.swift */,
+				BD5567E51F020E21007FA41E /* NineWeekCellTableViewCell.xib */,
+				BDE2EA771EFED6B2000E1454 /* NineWeeksTableViewController.swift */,
+				BD0599A21EF833D80035C552 /* Parser.swift */,
+				BD5567DF1F004FA8007FA41E /* ProfileVC.swift */,
+				BD5567E91F0296AF007FA41E /* SemesterTableViewCell.swift */,
+				BD5567EA1F0296AF007FA41E /* SemesterTableViewCell.xib */,
+				BD5567DB1EFEE2DF007FA41E /* SemesterTVC.swift */,
+				BD753F681EE4946900C53139 /* Session.swift */,
+				BD753F7D1EE4E19700C53139 /* Student.swift */,
+				BD5567F71F042326007FA41E /* TableViewSegue.swift */,
+				BD753F811EE665A700C53139 /* TabViewController.swift */,
+				BD5567FF1F06AD9A007FA41E /* TermData.swift */,
+				BD5567FD1F06915E007FA41E /* TermReport.swift */,
+				BD0599A01EF774EB0035C552 /* UsernameVC.swift */,
+				BD6F18661F5302C6008AFA75 /* SetupVCViewController.swift */,
+				BD753F731EE4957800C53139 /* ViewController.swift */,
+			);
+			path = Gradebook;
+			sourceTree = "<group>";
+		};
+		BD0E18061EE37F36006FB42E /* GradebookTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD0E18071EE37F36006FB42E /* GradebookTests.swift */,
+				BD0E18091EE37F36006FB42E /* Info.plist */,
+			);
+			path = GradebookTests;
+			sourceTree = "<group>";
+		};
+		BD0E18111EE37F36006FB42E /* GradebookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD0E18121EE37F36006FB42E /* GradebookUITests.swift */,
+				BD0E18141EE37F36006FB42E /* Info.plist */,
+			);
+			path = GradebookUITests;
+			sourceTree = "<group>";
+		};
+		BD4C70521EFC40A90022ED10 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BD4C70531EFC40A90022ED10 /* BEMAnimationManager.h */,
+				BD4C70541EFC40A90022ED10 /* BEMAnimationManager.m */,
+				BD4C70551EFC40A90022ED10 /* BEMCheckBox.h */,
+				BD4C70561EFC40A90022ED10 /* BEMCheckBox.m */,
+				BD4C70571EFC40A90022ED10 /* BEMCheckBoxGroup.h */,
+				BD4C70581EFC40A90022ED10 /* BEMCheckBoxGroup.m */,
+				BD4C70591EFC40A90022ED10 /* BEMPathManager.h */,
+				BD4C705A1EFC40A90022ED10 /* BEMPathManager.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D90123DF08B8D66ACD14FA83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3704FBDF05AECEA588661C69 /* Pods_Gradebook.framework */,
+				FA1D0FCCAEB73068CD621BA6 /* Pods_GradebookTests.framework */,
+				869619306E54A97814E058FD /* Pods_GradebookUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD0E17EE1EE37F36006FB42E /* Gradebook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD0E18171EE37F36006FB42E /* Build configuration list for PBXNativeTarget "Gradebook" */;
+			buildPhases = (
+				62E3D820EFEA1D2E80EEAB5A /* [CP] Check Pods Manifest.lock */,
+				BD0E17EB1EE37F36006FB42E /* Sources */,
+				BD0E17EC1EE37F36006FB42E /* Frameworks */,
+				BD0E17ED1EE37F36006FB42E /* Resources */,
+				1E6F94D55866F9D55B7F354F /* [CP] Embed Pods Frameworks */,
+				19597303F0FD200D9ABCA189 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gradebook;
+			productName = Gradebook;
+			productReference = BD0E17EF1EE37F36006FB42E /* Gradebook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD0E18021EE37F36006FB42E /* GradebookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD0E181A1EE37F36006FB42E /* Build configuration list for PBXNativeTarget "GradebookTests" */;
+			buildPhases = (
+				8157C89DECA682F90315A78C /* [CP] Check Pods Manifest.lock */,
+				BD0E17FF1EE37F36006FB42E /* Sources */,
+				BD0E18001EE37F36006FB42E /* Frameworks */,
+				BD0E18011EE37F36006FB42E /* Resources */,
+				D227B7D9EF5FE7587B4785DF /* [CP] Embed Pods Frameworks */,
+				037DD06B0848EE3EA4C1F7E2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD0E18051EE37F36006FB42E /* PBXTargetDependency */,
+			);
+			name = GradebookTests;
+			productName = GradebookTests;
+			productReference = BD0E18031EE37F36006FB42E /* GradebookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD0E180D1EE37F36006FB42E /* GradebookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD0E181D1EE37F36006FB42E /* Build configuration list for PBXNativeTarget "GradebookUITests" */;
+			buildPhases = (
+				7992A3D14BFDAA55390FC436 /* [CP] Check Pods Manifest.lock */,
+				BD0E180A1EE37F36006FB42E /* Sources */,
+				BD0E180B1EE37F36006FB42E /* Frameworks */,
+				BD0E180C1EE37F36006FB42E /* Resources */,
+				709B6BC722E182664330D9E8 /* [CP] Embed Pods Frameworks */,
+				07DCC4B7F01123895EA86CF6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD0E18101EE37F36006FB42E /* PBXTargetDependency */,
+			);
+			name = GradebookUITests;
+			productName = GradebookUITests;
+			productReference = BD0E180E1EE37F36006FB42E /* GradebookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD0E17E71EE37F36006FB42E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Yoni Zetune";
+				TargetAttributes = {
+					BD0E17EE1EE37F36006FB42E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = XD68G6NMDP;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					BD0E18021EE37F36006FB42E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = ZJ3B5FX3RW;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD0E17EE1EE37F36006FB42E;
+					};
+					BD0E180D1EE37F36006FB42E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = ZJ3B5FX3RW;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD0E17EE1EE37F36006FB42E;
+					};
+				};
+			};
+			buildConfigurationList = BD0E17EA1EE37F36006FB42E /* Build configuration list for PBXProject "Gradebook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD0E17E61EE37F36006FB42E;
+			productRefGroup = BD0E17F01EE37F36006FB42E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD0E17EE1EE37F36006FB42E /* Gradebook */,
+				BD0E18021EE37F36006FB42E /* GradebookTests */,
+				BD0E180D1EE37F36006FB42E /* GradebookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD0E17ED1EE37F36006FB42E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5567E61F020E21007FA41E /* NineWeekCellTableViewCell.xib in Resources */,
+				BD753F7A1EE49A7400C53139 /* GoogleService-Info2.plist in Resources */,
+				BDAED2C22014323000C0B853 /* GoogleService-Info.plist in Resources */,
+				BD0E17FD1EE37F36006FB42E /* LaunchScreen.storyboard in Resources */,
+				BD753F721EE494B000C53139 /* Assets.xcassets in Resources */,
+				BDAED0F31FFF234B008C974A /* GoogleService-Info3.plist in Resources */,
+				BD0599A51EF83F740035C552 /* Main.storyboard in Resources */,
+				BD5567EC1F0296AF007FA41E /* SemesterTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0E18011EE37F36006FB42E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0E180C1EE37F36006FB42E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		037DD06B0848EE3EA4C1F7E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GradebookTests/Pods-GradebookTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		07DCC4B7F01123895EA86CF6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GradebookUITests/Pods-GradebookUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19597303F0FD200D9ABCA189 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gradebook/Pods-Gradebook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E6F94D55866F9D55B7F354F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Gradebook/Pods-Gradebook-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BEMCheckBox/BEMCheckBox.framework",
+				"${BUILT_PRODUCTS_DIR}/BetterSegmentedControl/BetterSegmentedControl.framework",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/M13Checkbox/M13Checkbox.framework",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
+				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SJSegmentedScrollView/SJSegmentedScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftOverlays/SwiftOverlays.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
+				"${BUILT_PRODUCTS_DIR}/YALSideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/paper-onboarding/paper_onboarding.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BEMCheckBox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BetterSegmentedControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/M13Checkbox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SJSegmentedScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftOverlays.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/paper_onboarding.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gradebook/Pods-Gradebook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62E3D820EFEA1D2E80EEAB5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gradebook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		709B6BC722E182664330D9E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GradebookUITests/Pods-GradebookUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7992A3D14BFDAA55390FC436 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GradebookUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8157C89DECA682F90315A78C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GradebookTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D227B7D9EF5FE7587B4785DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GradebookTests/Pods-GradebookTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD0E17EB1EE37F36006FB42E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD753F6B1EE4946900C53139 /* Session.swift in Sources */,
+				BD5568001F06AD9A007FA41E /* TermData.swift in Sources */,
+				BD5567DC1EFEE2DF007FA41E /* SemesterTVC.swift in Sources */,
+				BD6F18651F5263F9008AFA75 /* OnboardingView.swift in Sources */,
+				BD6F18671F5302C6008AFA75 /* SetupVCViewController.swift in Sources */,
+				BD4C705C1EFC40A90022ED10 /* BEMCheckBox.m in Sources */,
+				BD753F6E1EE4947C00C53139 /* GradeCategory.swift in Sources */,
+				BD4C705D1EFC40A90022ED10 /* BEMCheckBoxGroup.m in Sources */,
+				BD753F661EE4945F00C53139 /* ClassReport.swift in Sources */,
+				BD753F701EE4948400C53139 /* Assignment.swift in Sources */,
+				BD753F7E1EE4E19700C53139 /* Student.swift in Sources */,
+				BD5567F41F0340B6007FA41E /* ClassHeaderVC.swift in Sources */,
+				BD4C705E1EFC40A90022ED10 /* BEMPathManager.m in Sources */,
+				BD5567E81F020EFF007FA41E /* NineWeekCellTableViewCell.swift in Sources */,
+				BD5567EB1F0296AF007FA41E /* SemesterTableViewCell.swift in Sources */,
+				BD5567E01F004FA8007FA41E /* ProfileVC.swift in Sources */,
+				BD753F6A1EE4946900C53139 /* Media.swift in Sources */,
+				BDC35D2F1EFCA8410080C3CA /* MenuBar.swift in Sources */,
+				BD0599A11EF774EB0035C552 /* UsernameVC.swift in Sources */,
+				BD5567EE1F0312DC007FA41E /* ClassParser.swift in Sources */,
+				BD753F741EE4957800C53139 /* ViewController.swift in Sources */,
+				BD0599A31EF833D80035C552 /* Parser.swift in Sources */,
+				BD5567FE1F06915E007FA41E /* TermReport.swift in Sources */,
+				BD5567F81F042326007FA41E /* TableViewSegue.swift in Sources */,
+				BD0E17F31EE37F36006FB42E /* AppDelegate.swift in Sources */,
+				BD753F821EE665A700C53139 /* TabViewController.swift in Sources */,
+				BD5567F61F034257007FA41E /* ClassControlVC.swift in Sources */,
+				BD5567F01F031548007FA41E /* ClassTableViewController.swift in Sources */,
+				BDE2EA781EFED6B2000E1454 /* NineWeeksTableViewController.swift in Sources */,
+				BD5567DE1EFF1BF9007FA41E /* HeaderViewController.swift in Sources */,
+				BD4C705B1EFC40A90022ED10 /* BEMAnimationManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0E17FF1EE37F36006FB42E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0E18081EE37F36006FB42E /* GradebookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0E180A1EE37F36006FB42E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0E18131EE37F36006FB42E /* GradebookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD0E18051EE37F36006FB42E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD0E17EE1EE37F36006FB42E /* Gradebook */;
+			targetProxy = BD0E18041EE37F36006FB42E /* PBXContainerItemProxy */;
+		};
+		BD0E18101EE37F36006FB42E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD0E17EE1EE37F36006FB42E /* Gradebook */;
+			targetProxy = BD0E180F1EE37F36006FB42E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD0E17FB1EE37F36006FB42E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD0E17FC1EE37F36006FB42E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD0E18151EE37F36006FB42E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD0E18161EE37F36006FB42E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD0E18181EE37F36006FB42E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B08A35BEA1B68E469D609326 /* Pods-Gradebook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Gradebook/Gradebook.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Michael Zetune (XD68G6NMDP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = XD68G6NMDP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Gradebook",
+				);
+				INFOPLIST_FILE = Gradebook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zetune.gradebook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = CheckMarkHeader.h;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BD0E18191EE37F36006FB42E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B793975416CE06A4F3E6EE92 /* Pods-Gradebook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Gradebook/Gradebook.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Michael Zetune (XD68G6NMDP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = XD68G6NMDP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Gradebook",
+				);
+				INFOPLIST_FILE = Gradebook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zetune.gradebook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = CheckMarkHeader.h;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BD0E181B1EE37F36006FB42E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2BEFEEDF2367A0A369FB46A /* Pods-GradebookTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZJ3B5FX3RW;
+				INFOPLIST_FILE = GradebookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yonathanzetune.GradebookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gradebook.app/Gradebook";
+			};
+			name = Debug;
+		};
+		BD0E181C1EE37F36006FB42E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 847EE3DCE5CEE7CFED6BADE9 /* Pods-GradebookTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZJ3B5FX3RW;
+				INFOPLIST_FILE = GradebookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yonathanzetune.GradebookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gradebook.app/Gradebook";
+			};
+			name = Release;
+		};
+		BD0E181E1EE37F36006FB42E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 308BCFFD3B924A0349148670 /* Pods-GradebookUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZJ3B5FX3RW;
+				INFOPLIST_FILE = GradebookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yonathanzetune.GradebookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Gradebook;
+			};
+			name = Debug;
+		};
+		BD0E181F1EE37F36006FB42E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8844A3D9FD4DAF28F2847A34 /* Pods-GradebookUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZJ3B5FX3RW;
+				INFOPLIST_FILE = GradebookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yonathanzetune.GradebookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Gradebook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD0E17EA1EE37F36006FB42E /* Build configuration list for PBXProject "Gradebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0E18151EE37F36006FB42E /* Debug */,
+				BD0E18161EE37F36006FB42E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD0E18171EE37F36006FB42E /* Build configuration list for PBXNativeTarget "Gradebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0E18181EE37F36006FB42E /* Debug */,
+				BD0E18191EE37F36006FB42E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD0E181A1EE37F36006FB42E /* Build configuration list for PBXNativeTarget "GradebookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0E181B1EE37F36006FB42E /* Debug */,
+				BD0E181C1EE37F36006FB42E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD0E181D1EE37F36006FB42E /* Build configuration list for PBXNativeTarget "GradebookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0E181E1EE37F36006FB42E /* Debug */,
+				BD0E181F1EE37F36006FB42E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD0E17E71EE37F36006FB42E /* Project object */;
+}
