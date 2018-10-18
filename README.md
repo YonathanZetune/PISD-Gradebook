@@ -12,7 +12,7 @@ The Gradebook app is a web-based swift scraper for the Plano ISD Pinnacle gradeb
 
 ## Details
 
-The app should ompile and run, however, you will not be able to login due to updates to the site being parsed.
+The app should compile and run, however, you will not be able to login due to updates to the site being parsed.
 
 ## Demo
 
